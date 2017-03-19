@@ -60,7 +60,7 @@ Installer [Bootstrap CSS](http://getbootstrap.com/) :
 $ npm install bootstrap --save-dev
 ```
 
-Charger la CSS de BootStrap en ajoutant cette ligne dans le fichier `angular-cli.json` :
+Charger la CSS de BootStrap en ajoutant cette ligne dans le fichier `.angular-cli.json` :
 
 ```json
 "styles": [
