@@ -21,7 +21,7 @@ Installer [angular-cli](https://github.com/angular/angular-cli) globalement sur 
 $ npm install -g angular-cli
 ```
 
-Téléchargez le fichier <a href="/sites/angularfrance.com/files/EXO_STARTER_PLB.zip">EXO_STARTER_PLB.zip</a>, qui contient :
+Téléchargez le fichier [EXO_STARTER_PLB.zip](EXO_STARTER.zip), qui contient :
 - Le support de cours en PDF.
 - Les fichiers pour faire les exercices.
 
