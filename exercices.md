@@ -1,5 +1,5 @@
-Formation Angular (v1.4) - Exercices
-------------------------------------
+Formation Angular (v2.0.0) - Exercices
+--------------------------------------
 
 ## AVANT DE DÉMARRER LES EXERCICES
 
