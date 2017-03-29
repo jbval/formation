@@ -57,7 +57,7 @@ Ouvrez le répertoire de l'application dans votre IDE. Si vous modifiez le texte
 Installer [Bootstrap CSS](http://getbootstrap.com/) :
 
 ```bash
-$ npm install bootstrap --save-dev
+$ npm install bootstrap --save
 ```
 
 Charger la CSS de BootStrap en ajoutant cette ligne dans le fichier `.angular-cli.json` :
@@ -579,7 +579,7 @@ Pour la formation, nous allons utiliser JSON Server (https://github.com/typicode
 Installez le paquet npm :
 
 ```bash
-npm install json-server --save
+npm install json-server --save-dev
 ```
 
 Ajoutez/Modifiez les scripts suivants dans le fichier `package.json` :
