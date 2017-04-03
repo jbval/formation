@@ -849,11 +849,15 @@ Copiez le **Client ID** généré par la console et reportez-le à l’endroit a
 
 **1) Charger le client JavaScript Google**
 
-Dans le fichier `index.html`, ajoutez la balise suivante dans le HEAD :
+Référencez le fichier `assets/google-client.js` depuis le fichier `.angular-cli.json` :
 
-```html
-<script src="https://apis.google.com/js/client.js"></script>
+```json
+"scripts": [
+  "assets/google-client.js"
+],
 ```
+
+Relancez `ng serve`. Le client Google doit maintenant être chargé sur toutes les pages (et la variable globale `gapi` doit être disponible).
 
 **2) Déclarer les settings dans les providers de l'application**
 
