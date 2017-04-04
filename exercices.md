@@ -90,6 +90,49 @@ Angular est donc parti de `main.ts` pour initialiser l'application. Mais comment
 
 
 
+## EXO 0 bis : Comprendre JavaScript
+
+Utilisons le traditionnel exemple de la "todo list" pour mettre en oeuvre quelques uns des concepts JavaScript que nous veons de voir.
+
+Copiez TEMPORAIREMENT le code suivant dans `app.component.ts` :
+
+```ts
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <ul>
+      <li *ngFor="let todo of todos">
+        <a href="#" (click)="remove(todo)">X</a>
+        {{ todo }}
+      </li>
+    </ul>
+    <p>
+      <input #newTodo>
+      <button (click)="add(newTodo.value);newTodo.value=''">Ajouter</button>
+    </p>
+  `
+})
+export class TodoComponent {
+  todos: string[] = ['Acheter du lait', 'Payer facture téléphonique'];
+
+  add(newTodo) {
+
+  }
+
+  remove(todo) {
+
+  }
+}
+```
+
+Faites en sorte qu'il soit possible :
+- D'ajouter des todos en saisissant un texte dans le champ.
+- De retirer des todos en cliquant sur la croix devant chaque todo.
+
+
+
 ## EXO 1 : Comprendre TypeScript
 
 **1) Identifier les syntaxes TypeScript**
