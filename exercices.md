@@ -104,7 +104,7 @@ import { Component } from '@angular/core';
   template: `
     <ul>
       <li *ngFor="let todo of todos">
-        <a href="#" (click)="remove(todo)">X</a>
+        <a href="javascript:void(0)" (click)="remove(todo)">X</a>
         {{ todo }}
       </li>
     </ul>
