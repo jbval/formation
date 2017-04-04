@@ -92,7 +92,7 @@ Angular est donc parti de `main.ts` pour initialiser l'application. Mais comment
 
 ## EXO 0 bis : Comprendre JavaScript
 
-Utilisons le traditionnel exemple de la "todo list" pour mettre en oeuvre quelques uns des concepts JavaScript que nous veons de voir.
+Utilisons le traditionnel exemple de la "todo list" pour mettre en oeuvre quelques uns des concepts JavaScript que nous venons de voir.
 
 Copiez TEMPORAIREMENT le code suivant dans `app.component.ts` :
 
@@ -128,7 +128,7 @@ export class TodoComponent {
 ```
 
 Faites en sorte qu'il soit possible :
-- D'ajouter des todos en saisissant un texte dans le champ.
+- D'ajouter des todos en saisissant du texte dans le champ texte, puis clic sur "Ajouter".
 - De retirer des todos en cliquant sur la croix devant chaque todo.
 
 
