@@ -18,7 +18,7 @@ Si ce n'est pas le cas, installez-les.
 Installer [angular-cli](https://github.com/angular/angular-cli) globalement sur votre machine :
 
 ```bash
-$ npm install -g angular-cli
+$ npm install -g @angular/cli
 ```
 
 Téléchargez le fichier [EXO_STARTER.zip](EXO_STARTER.zip), qui contient :
