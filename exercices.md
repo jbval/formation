@@ -40,7 +40,7 @@ $ cd superquiz
 $ rm -rf .git
 ```
 
-Dans le répertoire `superquiz`, **remplacez** le répertoire `src/app` par le répertoire `src/app` fourni dans EXO_STARTER_PLB.zip.
+Dans le répertoire `superquiz`, **remplacez** le répertoire `src/app` par le répertoire `src/app` fourni dans EXO_STARTER.zip.
 
 Ensuite, lancez la compilation et le serveur de développement avec cette commande :
 
